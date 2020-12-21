@@ -48,14 +48,15 @@ app.get('/campgrounds/:id', async(req,res) => {
 });
 
 app.get('/campgrounds/:id/edit', async ( req, res) => {
-    const campgrounds = await Campground.findById(req.params.id)
+    const campground = await Campground.findById(req.params.id)
     res.render('campgrounds/edit', {campground });
 })
 
 
 app.put('/campgrounds/:id', async(req, res) => {
     const { id } = req.params;
-    const campgrounds = await Campground.findByIdAndUpdate(id, {...req.body.camground});
+    const campground = await Campground.findByIdAndUpdate(id, {...req.body.camground});
+    res.redirect(`/campgrounds/${campground._id}`)
 })
 
 
