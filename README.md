@@ -4,7 +4,7 @@ Getting Started
 This app contains API secrets and passwords that have been hidden deliberately, so the app cannot be run with its features on your local machine. However, feel free to clone this repository if necessary.
 
 Clone or download this repository
-git clone https://github.com/...
+git clone https://github.com/sh-anna/YelpCamp-Development.git
 Install dependencies
 npm install
 or
