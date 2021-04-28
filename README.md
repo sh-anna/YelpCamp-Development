@@ -1,13 +1,18 @@
 # YelpCamp-Development-Process
-A full-stack Node.js project from my web dev course with RESTful routing
-YelpCamp is a project that was completed as a part of Colt Steele's Web Development Bootcamp course (Udemy).
 
-Description
-------------
-YelpCamp is based on the popular Yelp.com , the difference being it focuses on the campgrounds that any host/owner can post for the users across the globe to check and review.
+Getting Started
+This app contains API secrets and passwords that have been hidden deliberately, so the app cannot be run with its features on your local machine. However, feel free to clone this repository if necessary.
 
-The application is hosted on heroku and can be accessed at the below web address
-https://*********
+Clone or download this repository
+git clone https://github.com/...
+Install dependencies
+npm install
+or
+
+yarn install
+Comments in code
+Some comments in the source code are course notes and therefore might not seem necessary from a developer's point of view.
+
 
 Functionalities
 ----------------
@@ -15,7 +20,7 @@ Everyone can view the camps and reviews without signing up or logging in.
 The user will have to login to edit the campground details or any comments.
 The user can only edit/delete the campgrounds and comments that they have added.
 All the data will pe persistent and is stored in the awazon cloud.
-
+ 
 Technologies Used:
 ------------------
 HTML5 - markup language for creating web pages and web applications
